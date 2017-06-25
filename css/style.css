@@ -1,0 +1,70 @@
+/*Grid*/
+#live_data {
+  margin: 0 auto;
+  background-color: #000;
+  width: 98%;
+  overflow: auto;
+  height: auto;
+  min-width: 600px;
+}
+#status_grid {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-weight: 800;
+}
+.tr_tabela_grid th {
+    background-color: #000;
+    border: #000 solid;
+    border-width: 1px;
+    color: white;
+}
+.tabela_grid_select td {
+    background: #d8d8d8;
+}
+.tabela_grid_new td {
+    background: #fff;
+}
+/*Colunas*/
+
+.reg_uf {
+    width: 2%;
+    text-align: center;
+}
+.reg_cod {
+    width: 8%;
+}
+.reg_razao {
+    width: 15%;
+}
+.reg_fantasia {
+    width: 15%;
+}
+.reg_cidade {
+    width: 10%;
+}
+.reg_endereco {
+    width: 24%;
+}
+.reg_bairro {
+    width: 8%;
+}
+.reg_cep {
+    width: 8%;
+}
+.reg_telefone{
+    width: 10%;  
+}
+/*Botoes*/
+.btn_delete {
+    color: white;
+    background: red;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#btn_add {
+    color: white;
+    background: #22ae0d;
+    border-radius: 12px;
+    cursor: pointer;
+}
